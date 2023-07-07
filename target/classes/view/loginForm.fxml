@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="626.0" prefWidth="356.0" style="-fx-background-insets: 20;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.mychatapp.Controller.LoginFormController">
+    <children>
+        <AnchorPane layoutX="-2.0" layoutY="-7.0" prefHeight="633.0" prefWidth="363.0" style="-fx-background-color: white;" stylesheets="@../style/loginForm.css">
+            <children>
+                <TextField fx:id="txtUserName" layoutX="61.0" layoutY="482.0" onAction="#enterOnAction" prefHeight="38.0" prefWidth="248.0" promptText="                      User Name" style="-fx-background-radius: 20;" styleClass="NameLabel">
+                    <font>
+                        <Font name="Times New Roman Bold" size="14.0" />
+                    </font>
+                </TextField>
+                <Button fx:id="btnLogin" layoutX="131.0" layoutY="545.0" mnemonicParsing="false" onAction="#clickOnAction" prefHeight="40.0" prefWidth="109.0" style="-fx-background-color: #1b72e4; -fx-background-radius: 20;" styleClass="button-login" text="LOGIN" textFill="#fffdfd" />
+                <Label layoutX="95.0" layoutY="40.0" prefHeight="40.0" prefWidth="197.0" text="LOGIN">
+                    <font>
+                        <Font name="Times New Roman Bold" size="36.0" />
+                    </font>
+                </Label>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <effect>
+                <Blend />
+            </effect>
+        </AnchorPane>
+    </children>
+</AnchorPane>
