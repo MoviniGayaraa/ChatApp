@@ -1,0 +1,52 @@
+.Background{
+
+    -fx-background-color: linear-gradient(to bottom,#0E2954,#1F6E8C,#2E8A99,#84A7A1);
+}
+
+.bottomBackground{
+    -fx-background-color: linear-gradient(to bottom,#2807a5,#3a66c5,#3082cf,#8aa8e6);
+
+}
+
+.topBackground{
+    -fx-background-color: linear-gradient(to bottom,#8aa8e6,#3082cf,#3a66c5,#2807a5);
+
+}
+
+
+.button{
+    -fx-background-color: #9DB2BF;
+}
+.text-field{
+    -fx-background-radius: 10px;
+}
+
+.background{
+    -fx-background-color: linear-gradient(to left, #55b282,transparent);
+
+}
+.pane-box{
+    -fx-background-color: rgba(0,0,0 ,0.2);
+    -fx-background-radius: 20;
+}
+
+.NameLabel {
+    -fx-text-fill:#000001 ;
+    -fx-background-redius: 20;
+    -fx-effect: dropshadow(gaussian,#2807a5, 10, 0.1, 0, 0);
+}
+
+.sendLabel {
+    -fx-background-redius: 20;
+    -fx-effect: dropshadow(gaussian, #1b72e4, 5, 0.1, 0, 0);
+}
+
+.button-login{
+    -fx-text-fill:#000001 ;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-background-color: #ffff ;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow(gaussian,#2807a5, 10, 0.1, 0, 0);
+}
+
