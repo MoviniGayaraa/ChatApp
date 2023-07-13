@@ -59,7 +59,7 @@
                 <QuadCurve controlX="115.0" controlY="-58.0" endX="284.0" endY="1.0" fill="#2807a5" layoutX="50.0" layoutY="320.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
                 <AnchorPane layoutX="118.0" layoutY="117.0" prefHeight="88.0" prefWidth="98.0">
                     <children>
-                        <ImageView fitHeight="87.0" fitWidth="95.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView blendMode="COLOR_BURN" fitHeight="87.0" fitWidth="95.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                             <image>
                                 <Image url="@../image/chat.png" />
                             </image>
