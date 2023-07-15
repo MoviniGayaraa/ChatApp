@@ -4,12 +4,12 @@
 }
 
 .bottomBackground{
-    -fx-background-color: linear-gradient(to bottom,#2807a5,#3a66c5,#3082cf,#8aa8e6);
+    -fx-background-color: linear-gradient(to bottom, #261176, #284fa1, #65a0d7, #9ebdfd);
 
 }
 
 .topBackground{
-    -fx-background-color: linear-gradient(to bottom,#8aa8e6,#3082cf,#3a66c5,#2807a5);
+    -fx-background-color: linear-gradient(to bottom,#9ebdfd,#65a0d7,#284fa1, #261176);
 
 }
 
